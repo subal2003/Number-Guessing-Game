@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="Guess_the_number.css">
+    <link rel="stylesheet" href="guess-responsive.css">
+</head>
+
+<body>
+    <h1>Guess The Number Game</h1>
+    <!-- 1st help-msg para -->
+    <div class="rwd-container container hide">
+        <br>
+        <!-- help msg -->
+        <p class="help-msg" id="low-or-high">Hayy..!! Your game is ready</p>
+        <br> <br>
+        <!-- total attempt counter -->
+        <p class="total-attempt">Total attempt : <span class="total-attempt" id="attempt">0</span></p>
+        <!-- reward box -->
+        <div class="reward-box">
+            <br>
+            <p id="won-greet-msg">You Have Won</p>
+            <!-- gold coin Image -->
+            <div class="gold-coin">
+                <img src="gold-coin.jpg" alt="Gold Coin">
+            </div>
+            <!-- show woned points -->
+            <p id="point-number">0</p>
+            <p id="point">Point</p>
+        </div>
+        <br>
+        <!-- play again button -->
+        <button id="reset-btn" class="hover-eff">Play Again</button>
+    </div>
+    <!-- full game -->
+    <div class="game-container container">
+        <h2>Number Guessing Game</h2>
+        <!-- rules msg -->
+        <p id="rule-msg">Try to guess a random number between 1 to 100</p>
+        <form id="input-panel">
+            <label id="guess-msg" for="guess-field">Guess and enter a number</label>
+            <!-- user input box -->
+            <input id="user-input" type="text" placeholder="Enter a number">
+            <!-- submit button -->
+            <button id="submit-btn">Submit</button>
+        </form>
+        <!-- result para -->
+            <!-- store and show previous guess -->
+        <p class="prev-guess">Previous Guess : <span class="prev-guess" id="previous-guess"></span></p>
+        <!-- total attempt counter -->
+        <p class="total-attempt">Total attempt : <span class="total-attempt" id="atmt">0</span></p>
+        <br>
+        <!-- quit and reset button -->
+        <div class="quit_reset-btn">
+            <button id="quit-btn" class="hover-eff">Quit</button>
+            <!-- <button id="reset-btn">Reset</button> -->
+        </div>
+        <br>
+        <!-- 2nd help-msg para -->
+        <p class="help-msg" id="lowOrHigh">Hayy..!! Your game is ready</p>  
+    </div>
+    <script src="Guess_the_number.js"></script>
+</body>
+
+</html>

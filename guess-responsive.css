@@ -1,0 +1,192 @@
+/* making responsive */
+
+@media screen and (max-width: 485px) {
+
+    /* first heading */
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+        padding-bottom: 5px;
+        line-height: 2.5rem;
+    }
+
+    /* rule-msg */
+    #rule-msg {
+        font-size: 0.8rem;
+    }
+
+    /* guess-msg */
+    #guess-msg {
+        font-size: 0.7rem;
+    }
+
+    /* user-input */
+    #user-input {
+        width: 95%;
+        height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    /* submit-btn */
+    #submit-btn,
+    #quit-btn,
+    #reset-btn {
+        font-size: 0.8rem;
+        padding: 0.4rem;
+    }
+
+    /* Previous-guess */
+    .prev-guess {
+        font-size: 0.85rem;
+    }
+
+    /* total-attempt */
+    .total-attempt {
+        font-size: 0.85rem;
+    }
+
+    /* help Msg */
+    .help-msg {
+        margin-top: 0.4rem;
+        font-size: 1rem;
+        padding: 0.7rem;
+    }
+
+    /* reward */
+    .reward-box {
+        border-radius: 18px;
+        margin: 15px;
+        border: 2px solid black;
+    }
+
+    /* won-greet-msg */
+    #won-greet-msg {
+        font-size: 1rem;
+    }
+
+    /* coin image */
+    .gold-coin {
+        height: 60px;
+        width: 60px;
+    }
+
+    .gold-coin img {
+        height: 60px;
+        width: 60px;
+
+    }
+
+    #point-number {
+        font-size: 1.87rem;
+    }
+
+    #point {
+        font-size: 1.3rem;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    /* game container */
+    .container {
+        margin: 0.8rem;
+        padding: 1rem 1.8rem;
+        border-radius: 10px;
+    }
+
+    /* first heading */
+    h1 {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+        padding-bottom: 5px;
+        line-height: 1.4rem;
+    }
+
+    /* rule-msg */
+    #rule-msg {
+        font-size: 0.6rem;
+    }
+
+    /* input-panel */
+    #input-panel {
+        padding-top: 1.3rem;
+        padding-bottom: 1.3rem;
+    }
+
+    /* user-input */
+    #user-input {
+        width: 100%;
+        height: 1.4rem;
+        font-size: 0.7rem;
+    }
+
+    /* submit-btn */
+    #submit-btn,
+    #quit-btn,
+    #reset-btn {
+        font-size: 0.65rem;
+        padding: 0.3rem;
+    }
+
+    /* Previous-guess, total-attempt */
+    .total-attempt,
+    .prev-guess {
+        font-size: 0.65rem;
+    }
+
+    /* help Msg */
+    .help-msg {
+        margin-top: 0.2rem;
+        font-size: 0.8rem;
+        padding: 0.5rem;
+        border: 1.5px solid black;
+    }
+
+    /* reward */
+    .reward-box {
+        border-radius: 18px;
+        margin: 15px;
+        border: 1.5px solid black;
+    }
+
+    /* won-greet-msg */
+    #won-greet-msg {
+        font-size: 0.615rem;
+    }
+
+    /* coin image */
+    .gold-coin {
+        height: 50px;
+        width: 50px;
+    }
+
+    .gold-coin img {
+        height: 50px;
+        width: 50px;
+
+    }
+
+    #point-number {
+        font-size: 1.4rem;
+    }
+
+    #point {
+        font-size: 0.9rem;
+    }
+
+}
+
+/* for minimum screen size */
+@media screen and (max-width: 235px) {
+    body {
+        width: 235px;
+    }
+}

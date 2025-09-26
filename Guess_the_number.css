@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    height: 100vh;
+}
+
+/* first heading */
+h1 {
+    background-color: #081b31;
+    color: white;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+/* game container */
+.container {
+    background-color: #1f71d0;
+    background: linear-gradient(to top left, #1f71d0, #2366b3);
+    /* height: 480px;
+    width: 60%; */
+    margin: 1.5rem;
+    padding: 1rem 2rem;
+    /* margin-top: 1.8rem; */
+    /* margin-bottom: 1.8rem; */
+    justify-self: center;
+    justify-content: center;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column; */
+}
+
+h2 {
+    font-size: 2.8rem;
+    color: #ffff;
+    line-height: 4rem;
+    padding-bottom: 5px;
+}
+
+/* rule-msg */
+#rule-msg {
+    font-size: 1.2rem;
+    color: #ffff;
+}
+
+/* input-panel */
+#input-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+    gap: 0.5rem;
+}
+
+/* guess-msg */
+#guess-msg {
+    font-size: 1rem;
+    color: #3eeb0ab9;
+}
+
+/* user-input */
+#user-input {
+    border: none;
+    width: 80%;
+    text-align: center;
+    height: 2rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+/* submit-btn */
+#submit-btn,
+#quit-btn,
+#reset-btn {
+    background-color: #081b31;
+    font-size: 1rem;
+    color: #ffff;
+    display: inline-block;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    transition: 0.2s ease-out;
+}
+
+/* hover effects */
+#submit-btn:hover,
+#quit-btn:hover,
+#reset-btn:hover {
+    /* border: 2px solid white; */
+    background-color: rgb(2, 145, 2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+/* Previous-guess */
+.prev-guess {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 4px;
+}
+
+/* total-attempt */
+.total-attempt {
+    color: white;
+    font-size: 1.2rem;
+}
+
+/* quit_reset-btn */
+.quit_reset-btn {
+    display: flex;
+    justify-content: center;
+    gap: 6.5rem;
+}
+
+/* help Msg */
+.help-msg {
+    margin-top: 0.6rem;
+    /* background-color: #081b31; */
+    background-color: #ffffffc6;
+    font-size: 1.6rem;
+    /* color: #ffff; */
+    color: black;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 16px;
+    border: 2px solid black;
+}
+
+/* hide */
+.hide {
+    display: none;
+}
+
+/* reward */
+.reward-box {
+    background-color: aliceblue;
+    background: linear-gradient(to bottom left, white, #d3d3d2);
+    /* height: 230px; */
+    /* width: 30%; */
+    padding: 0 2rem 1rem 2rem;
+    border-radius: 20px;
+    place-self: center;
+    margin: 18px;
+    border: 2px solid black;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+
+/* won-greet-msg */
+#won-greet-msg {
+    font-size: 1.3rem;
+}
+
+/* coin image */
+.gold-coin {
+    background-color: gold;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 5px solid gold;
+    place-self: center;
+    margin: 1rem 0 0.5rem 0;
+}
+
+.gold-coin img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+
+}
+
+#point-number {
+    font-size: 2rem;
+}
+
+#point {
+    font-size: 1.6rem;
+}
